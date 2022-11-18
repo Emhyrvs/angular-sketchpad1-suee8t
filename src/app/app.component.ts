@@ -19,7 +19,7 @@ export class AppComponent implements OnInit {
     // https://editor.p5js.org/Janglee123/sketches/HJ2RnrQzN
     const sketch = (s) => {
       s.setup = () => {
-        let canvas2 = s.createCanvas(s.windowWidth - 200, s.windowHeight - 200);
+        let canvas2 = s.createCanvas(s.windowWidth, s.windowHeight - 200);
         // creating a reference to the div here positions it so you can put things above and below
         // where the sketch is displayed
         canvas2.parent('sketch-holder');

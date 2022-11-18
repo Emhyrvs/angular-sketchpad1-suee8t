@@ -1,20 +1,13 @@
+container {
+  position: relative;
+}
+
+.img {
+  position: relative;
+}
 .sketch-container {
-  display: flex;
+  position: absolute;
   justify-content: center;
   align-items: center;
   margin: 1em;
-}
-
-h1 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-p {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
 }
